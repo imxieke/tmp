@@ -1,0 +1,233 @@
+   21  bash pkgx.sh debian
+   22  bash pkgx.sh repo create debian bullseye
+   23  bash pkgx.sh repo create debian debian bullseye
+   24  bash pkgx.sh repo create --os=debian --name=debian --branch=bullseye
+   25  bash pkgx.sh repo create --platform=debian --name=debian --branch=bullseye
+   26  bash pkgx.sh repo create --platform=debian --name=debian --branch=bullseye --component=main
+   27  bash pkgx.sh repo create --platform=debian --name=debian --branch=bullseye --component='main'
+   28  bash pkgx.sh repo create --platform=debian --name=debian --branch=bullseye --component='main,'
+   29  mkdir -p /tmp/{app,}
+   30  mkdir -p /tmp/{app,s}w
+   31  l /tmp
+   32  mkdir -p /tmp/{apps,}
+   33  l /tmp
+   34  l /tmp/aptly558879203
+   35  l /tmp/aptly558879203/buffer.down
+   36  bash pkgx.sh repo create --platform=debian --name=debian --branch=bullseye --component='main,'
+   37  bash pkgx.sh repo create --platform=debian --name=debian --branch=bullseye --component='main'
+   38  aptly
+   39  aptly repo
+   40  aptly repo create
+   41  bash pkgx.sh repo create --platform=debian --name=debian --branch=bullseye --component='main'
+   42  bash pkgx.sh repo create --platform=debian --name=debian --branch=bullseye --repo='main'
+   43  aptly publish
+   44  aptly publish repo
+   45  bash pkgx.sh repo create --platform=debian --name=debian --branch=bullseye --repo='main'
+   46  bash pkgx.sh repo create --platform=debian --name=APT --branch=bullseye --repo='main'
+   47  bash pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo='main'
+   48  bash pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo='main,branch'
+   49  bash pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo='main,non-free'
+   50  ls
+   51  l
+   52  bash pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo='main,non-free'
+   53  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo='main,non-free'
+   54  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo='main,non-free' --repsa
+   55  count 
+   56  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo='main,non-free' --repsa
+   57  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo 'main,non-free' --repsa
+   58  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo='main,non-free' --repsa
+   59  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo='main,non-free'
+   60  ./pkgx.sh repo create --platform=apt --name=apt --branch=bullseye --repo='main,non-free'
+   61  atom
+   62  ./pkgx.sh repo create --platform=apt --name=apt --branch=bullseye --repo='main,non-free'
+   63  atom
+   64  ./pkgx.sh repo create --platform=apt --name=apt --branch=bullseye --repo='main,non-free'
+   65  l repo
+   66  l repo/apt
+   67  l repo/apt/bullseye
+   68  mkdir -p {main,non-free}
+   69  l
+   70  l main
+   71  rm -fr main non-free
+   72  l
+   73  l repo/apt/bullseye
+   74  ./pkgx.sh repo create --platform=apt --name=apt --branch=bullseye --repo='main,non-free'
+   75  mkdir -p /data/repo/apt/bullseye/{main,non-free}
+   76  l repo/apt/bullseye
+   77  mkdir -p /data/repo/apt/bullseye/{main,non-free}
+   78  l repo/apt/bullseye
+   79  rm -fr repo/apt/bullseye
+   80  ./pkgx.sh repo create --platform=apt --name=apt --branch=bullseye --repo='main,non-free'
+   81  l repo/apt/bullseye
+   82  ./pkgx.sh repo create --platform=apt --name=apt --branch=bullseye --repo='main,non-free'
+   83  l repo/apt/bullseye
+   84  mkdir repo/apt/bullseye/{main,non-free}
+   85  l repo/apt/bullseye
+   86  rm -fr repo/apt/bullseye
+   87  l repo/apt/bullseye
+   88  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo='main,non-free'
+   89  l repo/apt/bullseye
+   90  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo='main,non-free'
+   91  l repo/apt/bullseye
+   92  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo='main,non-free'
+   93  l repo/apt/bullseye
+   94  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo='main,non-free'
+   95  mkdir repo/apt/bullseye/(main,non-free)
+   96  mkdir repo/apt/bullseye/{main,non-free}
+   97  l repo/apt/bullseye
+   98  rm -fr repo/apt/bullseye/*
+   99  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo='main,non-free'
+  100  l repo/apt/bullseye
+  101  curl https://mirrors.ustc.edu.cn/debian/dists/bullseye/ChangeLog
+  102  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo='main,non-free'
+  103  l repo/apt/bullseye
+  104  rm -fr repo/apt/bullseye/*
+  105  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo=main
+  106  l repo/apt/bullseye
+  107  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo=main
+  108  l repo/apt/bullseye
+  109  rm -fr repo/apt/bullseye/\{main
+  110  l repo/apt/bullseye
+  111  l repo/apt/
+  112  l repo
+  113  l repo/apt
+  114  rm -fr repo/apt
+  115  l repo
+  116  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo=main
+  117  l repo
+  118  l repo/apt
+  119  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo=main
+  120  l repo
+  121  l repo/apt
+  122  l repo/apt/apt
+  123  l repo/apt/apt/dists
+  124  l repo/apt/apt/dists/bullseye
+  125  l repo/apt/apt/dists/bullseye/main
+  126  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo=main --arch=amd64
+  127  l repo/apt/apt/dists/bullseye/main
+  128  l repo/apt/apt/dists/bullseye/main/binary-amd64
+  129  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo=main --arch=amd64
+  130  l repo/apt/apt/dists/bullseye/main/binary-amd64
+  131  l repo/apt/apt/
+  132  l repo/apt/apt/poll
+  133  l repo/apt/apt/pool
+  134  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --arch=amd64
+  135  l repo/apt/apt/pool
+  136  l repo/apt/apt/
+  137  tree
+  138  tree repo/apt
+  139  tree repo/deb
+  140  tree repo/debian
+  141  tree repo/apt
+  142  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo=main --arch=amd64
+  143  tree repo/apt
+  144  rm -fr repo/apt/
+  145  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo=main --arch=amd64
+  146  tree repo/apt
+  147  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo=main --arch=amd64
+  148  tree repo/apt
+  149  l
+  150  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo=main --arch=amd64
+  151  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repos=main --arch=amd64
+  152  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repsos=main --arch=amd64
+  153  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repso=main --arch=amd64
+  154  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo=main --arch=amd64
+  155  ./pkgx.sh repo build --platform=debian --name=apt --branch=bullseye --repo=main --arch=amd64
+  156  l
+  157  cd repo/apt/apt/pool/main
+  158  l
+  159  dpkg -i 3.4deepin-wine32-preloader_2.18-12_i386.deb
+  160  apt show ./3.4deepin-wine32-preloader_2.18-12_i386.deb
+  161  l
+  162  apt show ./deepin-wine32-preloader_2.18-12_i386.deb
+  163  apt show ./3.4deepin-wine32-preloader_2.18-12_i386.deb
+  164  rm -fr 3.4deepin-wine32-preloader_2.18-12_i386.deb
+  165  ./pkgx.sh repo build --platform=debian --name=apt --branch=bullseye --repo=main --arch=amd64
+  166  /data/pkgx.sh repo build --platform=debian --name=apt --branch=bullseye --repo=main --arch=amd64
+  167  cat /etc/os-release
+  168  dpkg-scanpackages --help
+  169  /data/pkgx.sh repo build --platform=debian --name=apt --branch=bullseye --repo=main --arch=amd64
+  170  l
+  171  dpkg-scanpackages -m .
+  172  l
+  173  apt show sign.Powerword_uos_arm64.deb
+  174  apt show ./sign.Powerword_uos_arm64.deb
+  175  apt show ./sign.Powerword_uos_mips64.deb
+  176  l
+  177  du -h -d 1 .
+  178  apt show ./wine-qqmusic-linux-i386.deb
+  179  apt show ./webstorm_2020.2.4_all.deb
+  180  l
+  181  apt show ./git_1%3a2.25.1-1ubuntu3.1_amd64.deb
+  182  apt show git
+  183  apt show git | grep Depends
+  184  apt show git | grep Depends | 
+  185  rm -fr git_1%3a2.25.1-1ubuntu3.1_amd64.deb
+  186  l
+  187  mv 4deepin-wine_2.18-12_all.deb deepin-wine_2.18-12_all.deb
+  188  mv 5deepin-wine-binfmt_2.18-12_all.deb deepin-wine-binfmt_2.18-12_all.deb
+  189  l
+  190  mv 6.1deepin-wine-plugin_1.0deepin2_amd64.deb deepin-wine-plugin_1.0deepin2_amd64.deb
+  191  mv 6.2deepin-wine-plugin-virtual_1.0deepin1_all.deb deepin-wine-plugin-virtual_1.0deepin1_all.deb
+  192  l
+  193  curl https://mirrors.ustc.edu.cn/debian/dists/bullseye/main/binary-amd64/Release
+  194  ./pkgx.sh repo build --platform=debian --name=apt --branch=bullseye --repo=main --arch=amd64
+  195  /data/pkgx.sh repo build --platform=debian --name=apt --branch=bullseye --repo=main --arch=amd64
+  196  l
+  197  gzip -d Packages.gz
+  198  sle Packages
+  199  time /data/pkgx.sh repo build --platform=debian --name=apt --branch=bullseye --repo=main --arch=amd64
+  200  dpkg --help
+  201  l
+  202  dpkg --verify ./webstorm_2020.2.4_all.deb
+  203  apt show ./webstorm_2020.2.4_all.deb
+  204  dpkg --help
+  205  l
+  206  dpkg --print-avail ./duck_7.10.3.35460-1_amd64.deb 
+  207  apt show ./duck_7.10.3.35460-1_amd64.deb 
+  208  dpkg -i ./specifier
+  209  dpkg -i ./duck_7.10.3.35460-1_amd64.deb
+  210  duck
+  211  duck -h
+  212  dpkg --help
+  213  dpkg --info ./360safe_1.0.0.1014_amd64.deb
+  214  dpkg --info ./360zip_1.0.0.1010_amd64.deb
+  215  dpkg -i 360zip_1.0.0.1010_amd64.deb
+  216  apt search libqt5gui
+  217  apt search libqt5gui5
+  218  dpkg --print-avail
+  219  dpkg --print-installation-architecture
+  220  dpkg --print-architecture
+  221  dpkg --print-avail
+  222  l
+  223  dpkg --info webstorm_2020.2.4_all.deb
+  224  dpkg --info /data/repo/deb/1.1udis86_1.72-2_i386.deb
+  225  dpkg --info /data/repo/deb/sign.Powerword_uos_arm64.deb
+  226  dpkg --info /data/repo/deb/sign.Powerword_uos_mips64.deb
+  227  dpkg-architecture
+  230  dpkg-deb --info 360safe_1.0.0.1014_amd64.deb
+  231  dpkg-deb --show 360safe_1.0.0.1014_amd64.deb
+  232  dpkg-deb --info 360safe_1.0.0.1014_amd64.deb
+  233  dpkg --info 360safe_1.0.0.1014_amd64.deb
+  235  dpkg-deb --info 360safe_1.0.0.1014_amd64.deb
+  237  dpkg --info 360safe_1.0.0.1014_amd64.deb
+  241  l
+  242  rm -fr Packages*
+  243  l
+  244  /data/pkgx.sh repo build --platform=debian --name=apt --branch=bullseye --repo=main --arch=amd64
+  245  l /data/repo/apt/
+  246  l /data/repo/apt/apt/
+  247  l /data/repo/apt/apt/dists
+  248  l /data/repo/apt/apt/dists/bullseye
+  249  /data/pkgx.sh repo build --platform=debian --name=apt --branch=bullseye --repo=main --arch=amd64
+  250  l /data/repo/apt/apt/dists/bullseye
+  251  /data/pkgx.sh repo build --platform=debian --name=apt --branch=bullseye --repo=main --arch=amd64
+  252  l /data/repo/apt/apt/dists/bullseye
+  253  l /data/repo/apt/apt/dists/bullseye/main
+  254  l /data/repo/apt/apt/dists/bullseye/main/binary-amd64
+  255  curl https://mirrors.ustc.edu.cn/debian/dists/bullseye/main/binary-amd64/Release
+  256  curl https://mirrors.ustc.edu.cn/ubuntu/dists/bionic-backports/main/binary-amd64/Release
+  257  curl https://mirrors.ustc.edu.cn/ubuntu/dists/bionic-backports/Release
+  258  apt-config
+  259  apt-config shell
+  260  apt-config dump

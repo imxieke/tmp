@@ -1,0 +1,12 @@
+## Fonts
+- https://github.com/adobe-fonts/source-han-sans/releases
+- https://github.com/adobe-fonts/emojione-color
+- https://github.com/adobe-fonts/source-emoji/releases
+- https://github.com/adobe-fonts/noto-emoji-svg/releases/tag/2.002
+- https://github.com/adobe-fonts/source-code-pro/releases
+- https://github.com/adobe-fonts/source-han-mono/releases
+- https://github.com/adobe-fonts/adobe-variable-font-prototype/releases/tag/1.004
+- https://github.com/adobe-fonts/source-han-super-otc/releases/tag/20190603
+- https://github.com/adobe-fonts/source-han-serif/releases/tag/2.000R
+- https://github.com/adobe-fonts/source-serif/releases/tag/4.004R
+- https://github.com/adobe-fonts/source-sans/releases/tag/3.046R

@@ -1,0 +1,42 @@
+#!/usr/bin/env php
+<?php
+# Linux Repo Parse
+# http://dl.google.com/linux/chrome/deb/dists/stable/Release
+function _ubuntu($repo)
+{
+    $repo = explode(' ',$repo);
+    // print_r($repo);
+    if(isset($repo[0])) $url=trim($repo[0]);
+    if(isset($repo[1])) $version=trim($repo[1]);
+    if(isset($repo[2])) $branch=trim($repo[2]);
+    if(!isset($url)) exit("url can't be null");
+
+    if (substr($url,(strlen($url) - 1)) != '/')
+    {
+        $url = $url . '/';
+    }
+    if(isset($branch))
+    {
+        $fullUrl = $url . 'dists' . '/' . $version . '/Release';
+        $pkgs    = $url . 'dists' . '/' . $version . '/' . $branch . '/binary-amd64/Packages';
+    }
+    elseif (stristr($version,'/') !== false)
+    {
+        if (substr($version,(strlen($version) - 1)) == '/')
+        {
+            $fullUrl = $url . $version . 'Release';
+            $pkgs = $url . $version . 'Packages';
+        }
+        else {
+            $fullUrl = $url . $version . '/Release';
+            $pkgs = $url . $version . '/Packages';
+        }
+    }
+    echo $fullUrl . PHP_EOL ;
+    echo $pkgs . PHP_EOL;
+}
+
+// _ubuntu("http://dl.google.com/linux/chrome/deb/ stable main");
+// _ubuntu("https://download.sublimetext.com/ apt/stable/");
+// _ubuntu("http://security.ubuntu.com/ubuntu/ xenial-security multiverse");
+_ubuntu("http://jetbrains-ppa.s3-website.eu-central-1.amazonaws.com bionic main");
