@@ -420,9 +420,9 @@ version = "1.1.10.546.ge08ef575-19"
 name = "signal-desktop"
 version = "1.40.1"
 
-    [[direct.urls]]
-    url = "https://updates.signal.org/desktop/apt/pool/main/s/signal-desktop/signal-desktop_${version}_amd64.deb"
-    checksum = "871f0215cc13742181be8640304a457fb414ee70b9e19204b06870627ac8a74c"
+[[direct.urls]]
+url = "https://updates.signal.org/desktop/apt/pool/main/s/signal-desktop/signal-desktop_${version}_amd64.deb"
+checksum = "871f0215cc13742181be8640304a457fb414ee70b9e19204b06870627ac8a74c"
 
 
 name = "google-chrome-stable"
@@ -433,8 +433,8 @@ https://dl.google.com/linux/direct/${name}_${version}_amd64.deb
 name = "gitkraken"
 version = "current"
 
-    [[direct.urls]]
-    url = "https://release.gitkraken.com/linux/${name}-amd64.deb"
+[[direct.urls]]
+url = "https://release.gitkraken.com/linux/${name}-amd64.deb"
 
 [[direct]]
 name = "plex-media-server"
@@ -535,34 +535,6 @@ https://cdn-enterprise-packages.chinauos.com/server-enterprise/pool/non-free/z/z
 
 ## Archlinux Repo
 - https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/
-- https://github.com/archlinux/svntogit-community
-- https://github.com/archlinux/svntogit-packages
-- https://github.com/BlackArch/blackarch
-- https://github.com/eli-schwartz/pkgbuilds
-- https://github.com/Martchus/PKGBUILDs
-- https://github.com/acxz/pkgbuilds
-- https://github.com/alexheretic/aurto
-- https://github.com/ctlos/ctlos-aur
-
-## Macos
-- https://github.com/Homebrew/homebrew-cask
-- https://github.com/Homebrew/homebrew-core
-- https://github.com/Homebrew/homebrew-cask-fonts
-- https://github.com/Homebrew/homebrew-cask-drivers
-- https://github.com/Homebrew/homebrew-cask-versions
-- https://github.com/macports/macports-ports
-
-## Linux
-- Any Package Source
-- https://github.com/NixOS/nixpkgs
-- https://github.com/alpinelinux/aports
-- https://github.com/freebsd/freebsd-ports
-- https://github.com/void-linux/void-packages
-- https://github.com/openbsd/ports
-- https://github.com/jasperla/openbsd-wip
-- https://github.com/rsyslog/rsyslog-pkg-ubuntu
-- https://github.com/NetBSD/pkgsrc
-- https://github.com/freebsd/pkg
 
 ## 每个软件都是一个仓库
 - https://salsa.debian.org/debian
