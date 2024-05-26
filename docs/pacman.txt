@@ -180,7 +180,7 @@ rslsync
 youdao-dict
 yandex-disk
 
-aur 
+aur
 nerd-font
 nerd-fonts-jetbrains-mono
 boxes
@@ -287,7 +287,6 @@ marktext-bin
 android-apktool
 android-apktool-bin
 android-apktool-git
-
 
 android-ndk-beta
 android-ndk-r10e

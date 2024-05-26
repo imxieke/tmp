@@ -1,4 +1,4 @@
-基于 archlinux 
+基于 archlinux
 构建所有 linux 的安装包 Push 到 自托管的包平台
 
 - 通过 Github api 快速生成 PKGBUILD
@@ -9,13 +9,12 @@
 - 支持验证 sha256sum 等
 
 ## OS Packages
-
-收集 Linux 类软件包集合
-来自 Ubuntu Debian 及其第三方的程序
-linuxmint ubuntumint 等等 linux 的操作系统软件
-优麒麟
-银河麒麟
-中标麒麟
+- 收集 Linux 类软件包集合
+- 来自 Ubuntu Debian 及其第三方的程序
+- linuxmint ubuntumint 等等 linux 的操作系统软件
+- 优麒麟
+- 银河麒麟
+- 中标麒麟
 
 mkdir -p dists/focal/main/binary-amd64
 amd64 armel armhf
@@ -93,6 +92,6 @@ https://github.com/knadh/dns.toys
 
 ## Package Search Command
 - cmd search pkg , from all repo
-- cmd search ubuntu main vim , search vim from ubuntu main repo 
+- cmd search ubuntu main vim , search vim from ubuntu main repo
 - 从 Ubuntu 16.04 main 分支搜索 vim
 - cmd search ubuntu xenial(16.04) main vim

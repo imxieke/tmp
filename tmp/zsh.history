@@ -6,13 +6,6 @@
    26  bash pkgx.sh repo create --platform=debian --name=debian --branch=bullseye --component=main
    27  bash pkgx.sh repo create --platform=debian --name=debian --branch=bullseye --component='main'
    28  bash pkgx.sh repo create --platform=debian --name=debian --branch=bullseye --component='main,'
-   29  mkdir -p /tmp/{app,}
-   30  mkdir -p /tmp/{app,s}w
-   31  l /tmp
-   32  mkdir -p /tmp/{apps,}
-   33  l /tmp
-   34  l /tmp/aptly558879203
-   35  l /tmp/aptly558879203/buffer.down
    36  bash pkgx.sh repo create --platform=debian --name=debian --branch=bullseye --component='main,'
    37  bash pkgx.sh repo create --platform=debian --name=debian --branch=bullseye --component='main'
    38  aptly
@@ -32,7 +25,7 @@
    52  bash pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo='main,non-free'
    53  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo='main,non-free'
    54  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo='main,non-free' --repsa
-   55  count 
+   55  count
    56  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo='main,non-free' --repsa
    57  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo 'main,non-free' --repsa
    58  ./pkgx.sh repo create --platform=debian --name=apt --branch=bullseye --repo='main,non-free' --repsa
@@ -161,7 +154,7 @@
   181  apt show ./git_1%3a2.25.1-1ubuntu3.1_amd64.deb
   182  apt show git
   183  apt show git | grep Depends
-  184  apt show git | grep Depends | 
+  184  apt show git | grep Depends |
   185  rm -fr git_1%3a2.25.1-1ubuntu3.1_amd64.deb
   186  l
   187  mv 4deepin-wine_2.18-12_all.deb deepin-wine_2.18-12_all.deb
@@ -183,15 +176,7 @@
   203  apt show ./webstorm_2020.2.4_all.deb
   204  dpkg --help
   205  l
-  206  dpkg --print-avail ./duck_7.10.3.35460-1_amd64.deb 
-  207  apt show ./duck_7.10.3.35460-1_amd64.deb 
-  208  dpkg -i ./specifier
-  209  dpkg -i ./duck_7.10.3.35460-1_amd64.deb
-  210  duck
-  211  duck -h
-  212  dpkg --help
-  213  dpkg --info ./360safe_1.0.0.1014_amd64.deb
-  214  dpkg --info ./360zip_1.0.0.1010_amd64.deb
+  206  dpkg --print-avail ./duck_7.10.3.35460-1_amd64.deb
   215  dpkg -i 360zip_1.0.0.1010_amd64.deb
   216  apt search libqt5gui
   217  apt search libqt5gui5
@@ -199,21 +184,10 @@
   219  dpkg --print-installation-architecture
   220  dpkg --print-architecture
   221  dpkg --print-avail
-  222  l
   223  dpkg --info webstorm_2020.2.4_all.deb
-  224  dpkg --info /data/repo/deb/1.1udis86_1.72-2_i386.deb
-  225  dpkg --info /data/repo/deb/sign.Powerword_uos_arm64.deb
-  226  dpkg --info /data/repo/deb/sign.Powerword_uos_mips64.deb
   227  dpkg-architecture
   230  dpkg-deb --info 360safe_1.0.0.1014_amd64.deb
-  231  dpkg-deb --show 360safe_1.0.0.1014_amd64.deb
-  232  dpkg-deb --info 360safe_1.0.0.1014_amd64.deb
   233  dpkg --info 360safe_1.0.0.1014_amd64.deb
-  235  dpkg-deb --info 360safe_1.0.0.1014_amd64.deb
-  237  dpkg --info 360safe_1.0.0.1014_amd64.deb
-  241  l
-  242  rm -fr Packages*
-  243  l
   244  /data/pkgx.sh repo build --platform=debian --name=apt --branch=bullseye --repo=main --arch=amd64
   245  l /data/repo/apt/
   246  l /data/repo/apt/apt/

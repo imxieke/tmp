@@ -6,6 +6,7 @@ https://osdn.dl.osdn.net/boxs/77805/360zip-1.0.0.1010-4-x86_64.pkg.tar.zst
 
 https://mirrors.gigenet.com/OSDN/boxs/
 https://mirrors.gigenet.com/OSDN/storage/
+https://mirrors.gigenet.com/OSDN/storage/g/m/mk/
 
 http://master.dl.osdn.jp
 https://mirrors.dotsrc.org/osdn/
