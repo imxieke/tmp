@@ -57,3 +57,5 @@ Terminal=false
 Type=Application
 X-MultipleArgs=false
 注意：图标可自行设置路径及文件
+
+https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html

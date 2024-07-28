@@ -1,4 +1,5 @@
-## Packages
+## 程序严选 一个优秀软件的选择者 打包者(Archlinux)
+
 > 弥补官方不存在的包和最新版本的包
 
 - 优先使用 二进制包
@@ -76,7 +77,7 @@ https://osdn.dl.osdn.net/storage/g/x/xi/xiaomifirmwareupdater/Stable/V12/selene/
 - deb main
 
 ## Build Package for OS
-- Archlinux 
+- Archlinux
 - Debian/Ubuntu/Deepin
 - macos brew (if support)
 - alpine

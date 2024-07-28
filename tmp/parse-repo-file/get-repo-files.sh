@@ -1,13 +1,12 @@
 #!/usr/bin/env bash
-#!/usr/bin/env bash
 ###
  # @Author: Cloudflying
  # @Date: 2021-11-18 18:11:05
- # @LastEditTime: 2021-11-19 00:28:58
+ # @LastEditTime: 2024-06-10 16:23:21
  # @LastEditors: Cloudflying
- # @Description: 
+ # @Description:
  # @FilePath: /packages/parse-repo-file/get-repo-files.sh
-### 
+###
 
 if [[ ! -f "alpine-edge-main.tar.gz" ]]; then
 	wget https://mirrors.ustc.edu.cn/alpine/edge/main/x86_64/APKINDEX.tar.gz -O alpine-edge-main.tar.gz
@@ -69,7 +68,7 @@ _debian_like()
 			echo "$i -> $repo support: " $archs
 		done
 	done
-	
+
 }
 
 # _debian_like $@

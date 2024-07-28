@@ -261,9 +261,7 @@ ddnet
 deadbeef
 deadbeef-git
 deadbeef-mpris2-plugin
-deb2appimage
 deb2targz
-debianutils
 
 
 decaf-emu-git
@@ -305,7 +303,6 @@ dnsmasq-china-list-git
 docker-rootless-extras
 docker-zfs-plugin
 dog-dns-git
-doggo
 dolphin-emu-git
 dolt
 dosbox-x-git
@@ -850,7 +847,6 @@ lib32-openjpeg2
 lib32-pcsclite
 lib32-qt4
 lib32-raptor
-lib32-rtmpdump
 lib32-sbc
 lib32-sdl_sound
 lib32-serd
@@ -865,8 +861,6 @@ lib32-vmaf
 lib32-webrtc-audio-processing
 lib32-wildmidi
 lib32-wxgtk3
-lib32-x264
-lib32-x265
 lib32-xvidcore
 lib32-zbar
 lib32-zvbi
@@ -993,7 +987,6 @@ lua-ltdiff
 lua-luacov
 lua-luacov-coveralls
 lua-luacov-coveralls-git
-lua-messagepack
 lua-path
 lua-pegdebug
 lua-penlight-git
@@ -1726,8 +1719,6 @@ python-pymssql
 python-pynetdicom
 python-pynput
 python-pynrrd
-python-pypdf2
-python-pyptt
 python-pyqt5-sip4
 python-pyreadr
 python-pysdl2
@@ -1840,7 +1831,6 @@ python-torchvision
 python-transformers
 python-ttfautohint-py
 python-turkish-morphology
-python-uao
 python-ufo-extractor
 python-ufo2ft
 python-ufo2ft-git
@@ -1860,7 +1850,6 @@ python-visdom
 python-visions
 python-vispy
 python-vttlib
-python-whisper
 python-wrf
 python-wxpython-dev
 python-xcocotools
@@ -1996,7 +1985,6 @@ ruby-launchy
 ruby-net-http-persistent
 ruby-net-http-pipeline
 ruby-parallel
-ruby-parser
 ruby-pry
 ruby-pusher-client
 ruby-regexp_parser
@@ -2406,7 +2394,6 @@ wdisplays-git
 webcamoid
 webcord
 websocketd
-webstorm
 weka
 wev-git
 wezterm-git
@@ -2427,11 +2414,7 @@ wlroots-lily-git
 wob
 woeusb-gui
 woeusb-ng
-wps-office
-wps-office-cn
 wps-office-fonts
-wps-office-mime-cn
-wps-office-mui-zh-cn
 wrk
 wscat
 wxgtk-dev
@@ -2512,24 +2495,16 @@ vnote
 typora
 tabby
 goland-eap
-webstorm
-phpstorm
-phpstorm-eap
-phpstorm-jre
 intellij-idea-ce
 intellij-idea-community-edition
 intellij-idea-community-edition-jre
 intellij-idea-community-edition-no-jre
-intellij-idea-ultimate-edition
-intellij-idea-ultimate-edition-jre
 rubymine
 pycharm-community-eap
 pycharm-community-edition
 pycharm-eap
 pycharm-edu
 pycharm-professional
-wps-office
-wps-office-cn
 baidunetdisk
 deepin-baidu-pan
 onedrive
@@ -2547,7 +2522,7 @@ adobe-source-code-pro-fonts
 adobe-source-han-sans-cn-fonts
 ttf-monaco
 noto-fonts-emoji
-ttf-fira-code 
+ttf-fira-code
 ttf-ms-fonts
 ttf-sarasa-gothic
 tenvideo
@@ -2556,7 +2531,6 @@ obs-studio
 docky
 plank
 latte-dock
-vmware-workstation
 asciinema
 mkcert
 wechat-devtool
@@ -2575,7 +2549,6 @@ gnome-documents
 
 wechat-uos
 cider
-teamviewer
 yozo-office
 typora
 
@@ -2602,3 +2575,5 @@ tuxpaint
 http://prdownloads.sourceforge.net/tuxpaint/tuxpaint-ttf-chinese-2003.01.05-1.noarch.rpm
 https://sourceforge.net/projects/tuxpaint/files/tuxpaint-fonts/chinese-simplified-2004.06.05/tuxpaint-ttf-chinese-simplified-2004.06.05.tar.gz/download
 http://prdownloads.sourceforge.net/tuxpaint/tuxpaint-ttf-chinese-traditional-2004.06.05.tar.gz?download
+
+https://github.com/yorukot/superfile

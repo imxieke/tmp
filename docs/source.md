@@ -972,7 +972,9 @@ wget -qO - https://typora.io/linux/public-key.asc | sudo tee /etc/apt/trusted.gp
 'deb https://typora.io/linux ./'
 
 
-http://download.cs2c.com.cn/neokylin/
-http://archive.build.openkylin.top/openkylin/
-https://archive2.kylinos.cn/deb/
-http://archive.kylinos.cn/kylin/KYLIN-ALL/pool/restricted/f/
+- http://download.cs2c.com.cn/neokylin/
+- http://archive.build.openkylin.top/openkylin/
+- https://archive2.kylinos.cn/deb/
+- http://archive.kylinos.cn/kylin/KYLIN-ALL/pool/restricted/f/
+- https://repo.malacology.net
+- https://archive.openkylin.top
